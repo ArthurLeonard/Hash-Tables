@@ -11,7 +11,7 @@ class TestFullHashTable(unittest.TestCase):
 
     def test_hash_table_insertion_and_retrieval(self):
         ht = HashTable(8)
-
+    
         hash_table_insert(ht, "key-0", "val-0")
         hash_table_insert(ht, "key-1", "val-1")
         hash_table_insert(ht, "key-2", "val-2")

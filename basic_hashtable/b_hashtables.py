@@ -77,6 +77,7 @@ def hash_table_retrieve(bht, key):
         return value
 def Testing():
     bht = BasicHashTable(16)
+    #list = MyLinkedList()
                                                        
     hash_table_insert(bht, "line", "Here today...\n")
 
